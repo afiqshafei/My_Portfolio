@@ -3,53 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Portfolio</title>
+	<title>My Portfolio -Home</title>
 	<link rel="stylesheet" href="styles.css">
 	<script src="script.js" defer></script>
 </head>
 <body>
 	<header>
-		<h1>Header</h1>
+		<h1>My Portofolio</h1>
 		<nav>
 			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 	</header>
-	<main>
-		<section id="about-me">
-			<h2>About Me</h2>
-			<p>Welcome to my portfolio!</p>			
-		</section>
-		<section id="skills">
-			<h2>Skills</h2>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-			</ul>
-		</section>
-		<section id="projects">
-			<h2>Projects</h2>
-			<ul>
-				<li><a href="project1.html">Project 1</a></li>
-				<li><a href="project2.html">Project 2</a></li>
-				<li><a href="project3.html">Project 3</a></li>
-			</ul>
-		</section>
-		<form id="contact-form">
-			<h2>Contact Me</h2>
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name" required>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" required>
-			<label for="message">Message:</label>
-			<textarea id="message" name="message" required></textarea>
-			<button type="submit">Send</button>
-		</form>
-	</main>
+	<section id="hero">
+        <div class="profile-pic-container">
+            <img src="images/Profile_Pic.jpg" alt="Profile Picture" class="profile-pic" />
+            <p id="home-content">Welcome to my portfolio. This portfolio is part of a Coursera assignment for Introduction to Web Development.</p>
+        </div>
+
+    </section>
+    <main>
+        
+    </main>
 	<footer>
 		<p>&copy; 2025 My Portfolio</p>
 	</footer>
