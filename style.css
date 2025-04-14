@@ -101,32 +101,7 @@ span {
 
 }
 
-@media (max-width: 768px) {
-    .nav-links {
-      display: none;
-      position: absolute;
-      top: 65px;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-      flex-direction: column;
-      text-align: center;
-      padding: 20px 0;
-    }
-  
-    .nav-links li {
-      margin: 15px 0;
-    }
-  
-    .hamburger {
-      display: block;
-    }
-  
-    /* Show menu when checkbox is checked */
-    #menu-toggle:checked + .hamburger + .nav-links {
-      display: flex;
-    }
-  }
+
 
 .gradient-btn:hover {
     transform: scale(1.05);
@@ -371,3 +346,47 @@ section {
     font-weight: 800;
     
 }
+
+/* ---------------Contact------------------ */
+.contact {
+    background-color: var(--bg-color);
+}
+.contact h2 {
+    margin-bottom: 3rem;
+    color: var(--text-color); 
+}
+
+.contact form {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+}
+
+.contact form .input-box input, 
+.contact form textarea {
+    width: 100%; 
+    padding: 2.5rem;
+    font-size: 1.8rem; 
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color); 
+    margin: 1.5rem 0; 
+    resize: none;
+}
+
+
+
+.footer {
+    background-color: var(--second-bg-color);
+    padding: 50px 0; 
+}
+
+.footer .copyright {
+    text-align: center; 
+    font-size: 16px;
+    margin-top: 40px;
+   
+} 
